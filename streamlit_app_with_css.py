@@ -7,13 +7,29 @@ import plotly.express as px
 
 #######################
 # Page configuration
-st.set_page_config(
-    page_title="Tanzania Tourism Dashboard",
-    page_icon="📊",
-    layout="wide",
-    initial_sidebar_state="expanded")
+#st.set_page_config(
+ #   page_title="Tanzania Tourism Dashboard",
+  #  page_icon="📊",
+   # layout="wide",
+   # initial_sidebar_state="expanded")
 
-alt.themes.enable("dark")
+#alt.themes.enable("dark")
+
+#adding new pages
+
+# Define function to render each page
+def page_tanzania_tourism():
+    st.title('🏂 Tanzania Tourism Dashboard')
+    
+    # Your existing code for the Tanzania Tourism page here
+
+def Packages():
+    st.title('🌍 Another Page')
+    
+# Your code for another page here
+
+
+
 
 #######################
 # CSS styling
